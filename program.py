@@ -18,8 +18,7 @@ for sex, sex_count in sex_counts.items():
 
     ax.bar_label(p, label_type='center')
 
-ax.set_title('Number of penguins by sex')
+ax.set_title('Cantidad de patos por metro cuadrado')
 ax.legend()
-
 plt.show()
-plt.savefig("Figura.png")
+plt.savefig("Figura")
